@@ -1,0 +1,53 @@
+/* developer styles go here */
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+header,
+footer {
+	height: 400px;
+	padding: 2rem;
+	background-color: #eff2f7;
+	text-align: center;
+}
+
+header {
+	background: url(../img/small-bg.jpg) center bottom / cover no-repeat;
+}
+
+footer {
+	height: 100px;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+@media only screen and (min-width: 850px) {
+	header {
+		background: url(../img/medium-bg.jpg) center bottom / cover no-repeat;
+	}
+	h1 {
+		color: #fff;
+		text-shadow: 5px 3px 9px rgba(0,0,0,0.6);
+		font-size: calc(2rem + 2vw);
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	header {
+		height: 500px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	header {
+		background: url(../img/large-bg.jpg) center bottom / cover no-repeat;
+		height: 700px;
+	}
+}
